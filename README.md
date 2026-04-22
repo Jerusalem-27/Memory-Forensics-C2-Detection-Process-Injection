@@ -1,4 +1,4 @@
-# Memory Forensics Investigation: Detecting C2, Process Injection, and Privilege Escalation
+# Memory Forensics: C2, Process Injection, and Privilege Escalation
 
 ---
 
