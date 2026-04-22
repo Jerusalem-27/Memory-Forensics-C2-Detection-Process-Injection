@@ -10,6 +10,88 @@ The goal of this project is to demonstrate how real-world attacks can be uncover
 
 ---
 
+##  Investigation Evidence  
+
+### 1. Process Overview  
+
+<p align="center">
+  <img src="./evidence/01 - memory-process-overview.png" width="800">
+</p>
+
+Reviewed active processes in memory to establish baseline activity and identify anomalies.
+
+---
+
+### 2. Suspicious Executable (Downloads Directory)  
+
+<p align="center">
+  <img src="./evidence/02 - suspicious-executable-downloads.png" width="800">
+</p>
+
+Identified a suspicious executable originating from a user-controlled directory, indicating potential initial access or payload execution.
+
+---
+
+### 3. Hidden Process Detection  
+
+<p align="center">
+  <img src="./evidence/03 - hidden-process-detection.png" width="800">
+</p>
+
+Detected hidden or unlinked processes using cross-view analysis, suggesting attempts to evade standard process visibility.
+
+---
+
+### 4. Network (C2) Connections  
+
+<p align="center">
+  <img src="./evidence/04 - network-c2-connections.png" width="800">
+</p>
+
+Observed active outbound connections to external systems, indicating possible command-and-control (C2) communication.
+
+---
+
+### 5. Privilege Escalation Analysis  
+
+<p align="center">
+  <img src="./evidence/05 - privilege-escalation-analysis.png" width="800">
+</p>
+
+Analyzed process privileges and identified elevated access, suggesting privilege escalation activity.
+
+---
+
+### 6. Memory Artifact Detection  
+
+<p align="center">
+  <img src="./evidence/06 - memory-artifact-detection.png" width="800">
+</p>
+
+Identified suspicious memory artifacts and indicators consistent with malicious execution.
+
+---
+
+### 7. Malware Extraction  
+
+<p align="center">
+  <img src="./evidence/07 - malware-extraction.png" width="800">
+</p>
+
+Extracted suspicious executables from memory for further analysis and validation.
+
+---
+
+### 8. Binary Density Analysis  
+
+<p align="center">
+  <img src="./evidence/08 - binary-density-analysis.png" width="800">
+</p>
+
+Performed binary density analysis to identify potential obfuscation or packed malware.
+
+---
+
 ## Detection Summary  
  
 The detection approach focuses on identifying malicious activity from volatile memory by analyzing process behavior, execution patterns, and network artifacts.
