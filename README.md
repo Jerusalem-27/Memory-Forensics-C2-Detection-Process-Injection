@@ -170,16 +170,6 @@ This allowed the attacker to operate stealthily while maintaining control over t
 ---
 
 ## Skills Demonstrated  
-- Memory Forensics (Volatility)  
-- Threat Hunting & Attack Analysis  
-- Process & Privilege Analysis  
-- Detection of C2 Communication  
-- Process Injection Detection  
-- Evidence Correlation & Attack Reconstruction  
-
----
-
-## Skills Demonstrated  
 
 - Memory Forensics  
 - Threat Hunting  
